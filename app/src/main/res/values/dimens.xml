@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Teamlayoutwidth">0dp</dimen>
+    <dimen name="TeamNameTextPadding">16dp</dimen>
+    <dimen name="TeamNameTextSize">14sp</dimen>
+    <dimen name="TeamScoreTextView">24dp</dimen>
+    <dimen name="TeamScoreTextSize">56sp</dimen>
+    <dimen name="TeamMatchOneLayoutWidth">0dp</dimen>
+    <dimen name="TeamMatchPaddingBottom">24dp</dimen>
+    <dimen name="TeamMatchTextSize">25sp</dimen>
+    <dimen name="TeamButtonLayoutMarginRight">24dp</dimen>
+    <dimen name="TeamButtonLayoutMarginLeft">24dp</dimen>
+    <dimen name="TeamButtonLayoutMarginBottom">8dp</dimen>
+    <dimen name="ViewLayoutMarginTop">16dp</dimen>
+    <dimen name="ResetButtonLayoutMarginBottom">32dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="TeamNameColor">#FFFFFF</color>
+    <color name="TeamScoreTextColor">#FFFFFF</color>
+    <color name="TeamAMatchOneColor">#FFFFFF</color>
+    <color name="TeamAMatchTwoColor">#FFFFFF</color>
+    <color name="TeamBMatchOneColor">#FFFFFF</color>
+    <color name="TeamBMatchTwoColor">#FFFFFF</color>
+</resources>

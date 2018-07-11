@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edit.scorekeeperapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:id="@+id/imageView"
+      style="@style/ImageBackground"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ball" />
+
+    <LinearLayout
+        android:id="@+id/teams"
+        style="@style/Teams">
+
+        <LinearLayout
+            style="@style/TeamLayout">
+
+            <TextView
+              style="@style/TeamNameTextView"
+                android:text="@string/team_a"
+                 />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                style="@style/TeamScoreTextView"
+                android:text="0"
+                 />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/team_a_match_one"
+                    android:text="0"
+                    android:textColor="@color/TeamAMatchOneColor"
+                   style="@style/TeamMatch"/>
+
+                <TextView
+                    android:id="@+id/team_a_match_two"
+                    android:text="0"
+                    android:textColor="@color/TeamAMatchTwoColor"
+                   style="@style/TeamMatch" />
+            </LinearLayout>
+
+            <Button
+              style="@style/Button"
+                android:onClick="addForTeamA"
+                android:text="@string/point" />
+
+            <Button
+               style="@style/Button"
+                android:onClick="addForTeamB"
+                android:text="@string/error" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="addForTeamB"
+                android:text="@string/irregularity" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/ViewLayoutMarginTop"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+           style="@style/TeamLayout">
+
+            <TextView
+                android:text="@string/team_b"
+                style="@style/TeamNameTextView" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:text="0"
+                style="@style/TeamScoreTextView"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/team_b_match_one"
+                    android:text="0"
+                    android:textColor="@color/TeamBMatchOneColor"
+                    style="@style/TeamMatch"
+ />
+
+                <TextView
+                    android:id="@+id/team_b_match_two"
+                    android:text="0"
+                    android:textColor="@color/TeamBMatchTwoColor"
+                    style="@style/TeamMatch" />
+            </LinearLayout>
+
+            <Button
+                style="@style/Button"
+                android:onClick="addForTeamB"
+                android:text="Point" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="addForTeamA"
+                android:text="Error" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="addForTeamA"
+                android:text="Irregularity " />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+       style="@style/ButtonReset"
+        android:onClick="resetScore"
+        android:text="Reset" />
+
+
+</RelativeLayout>

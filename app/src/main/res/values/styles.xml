@@ -1,0 +1,99 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+
+<style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+</style>
+
+<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="ImageBackground">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_alignParentStart" tools:targetApi="jelly_bean_mr1">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+
+    </style>
+
+    <style name="Teams">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="TeamLayout">
+        <item name="android:layout_width">@dimen/Teamlayoutwidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="TeamNameTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:padding">@dimen/TeamNameTextPadding</item>
+        <item name="android:textColor">@color/TeamNameColor</item>
+        <item name="android:textSize">@dimen/TeamNameTextSize</item>
+
+    </style>
+
+
+    <style name="TeamScoreTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:paddingBottom">@dimen/TeamScoreTextView</item>
+        <item name="android:textColor">@color/TeamScoreTextColor</item>
+        <item name="android:textSize">@dimen/TeamScoreTextSize</item>
+
+    </style>
+
+    <style name="TeamMatch">
+        <item name="android:layout_width">@dimen/TeamMatchOneLayoutWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/TeamMatchPaddingBottom</item>
+        <item name="android:textSize">@dimen/TeamMatchTextSize</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/TeamButtonLayoutMarginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/TeamButtonLayoutMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/TeamButtonLayoutMarginRight</item>
+
+    </style>
+    <style name="ButtonReset">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/ResetButtonLayoutMarginBottom</item>
+
+    </style>
+
+
+
+</resources>
+
